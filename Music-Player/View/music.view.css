@@ -1,0 +1,41 @@
+body{
+  background-color: grey;
+}
+h1{
+  text-align: center;
+
+  color: red;
+}
+h2 {
+  text-align: center;
+  color: blue;
+  margin-top: -40px;
+  margin-left: 230px;
+}
+
+hr{
+  border-style: solid;
+  color: black;
+}
+hr+p{
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  font-family: impact;
+}
+hr+p::first-letter {
+  color: blue;
+  font-size: 40px;
+  font-style: italic;
+}
+
+img{
+  margin-left: 200px;
+  margin-bottom: 200px;
+  width: 255px;
+  height: 255px;
+}
+footer{
+font-size: 12px;
+text-align: center;
+}
